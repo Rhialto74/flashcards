@@ -1,0 +1,7 @@
+<div *ngIf="card">
+  <h2>Card -- {{card.content}} -- details!</h2>
+  <div><label>id: </label>{{card.id}}</div>
+  <div>
+    <label>content: </label>
+    <input [(ngModel)]="card.content" placeholder="content">
+</div>
